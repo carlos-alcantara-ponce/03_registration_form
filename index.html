@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Registration Form</title>
+</head>
+
+<body>
+    <h1> Registration Form</h1>
+    <form>
+        <label for="firstname">First Name: *</label>
+        <input type="text" id="firstname" name="firstname" placeholder="Your first name"><br> <br>
+
+        <label for="lasttname">Last Name: *</label>
+        <input type="text" id="lastname" name="lastname" placeholder="Your last name"><br> <br>
+
+        <label for="email">Email address: *</label>
+        <input type="text" id="email" name="email" placeholder="email"><br> <br>
+
+        <label for="password">Password: *</label>
+        <input type="password" id="password" name="password" placeholder="Password"><br> <br>
+
+        <label for="password2">Confirm Password: *</label>
+        <input type="password" id="password2" name="password2" placeholder="Confirm password"><br> <br>
+
+        <label for="email">Email address: *</label>
+        <input type="text" id="email" name="email" placeholder="email"><br> <br>
+
+        <label for="birthday">Birthday: </label>
+        <input type="date" id="birthday" name="birthday" placeholder="Birthday"><br>
+
+        <p>Gender Identity:</p>
+        <input type="radio" id="male" name="Gender" value="Male">
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="Gender" value="Female">
+        <label for="female">Female</label>
+        <input type="radio" id="non-binary" name="Gender" value="Non-binary">
+        <label for="non-binary">Non-binary</label>
+        <input type="radio" id="prefer-not" name="Gender" value="I prefer not to answer">
+        <label for="prefer-not">I prefer not to answer</label><br> <br>
+
+
+        <label for="about">A short description about myself: </label> <br>
+        <textarea id="about" name="about" rows="4" cols="50">A short description about myself</textarea><br> <br>
+
+        <label for="Lang">Favorite Languaje: </label>
+        <select name="Lang" id="Lang">
+            <option value="Javascript">Javascript</option>
+            <option value="PHP">PHP</option>
+            <option value="Java">Java</option>
+            <option value="Go">Go</option>
+        </select><br> <br>
+
+
+        <input type="checkbox" id="subs" name="subs" value="subs">
+        <label for="subs"> Yes, I would like to receive periodic update emails</label><br><br>
+
+
+        <input type="submit" value="Create Accuont">
+        <p>* Indicates a required field</p>
+    </form>
+</body>
+
+</html>
